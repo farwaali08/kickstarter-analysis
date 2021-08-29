@@ -6,7 +6,7 @@ This analysis was prepared to identify trends and relationships in the data from
 
 *Analysis*
 
-The data used was drawn from a larger dataset of crowdfunding projects, which can be found [here](https://github.com/farwaali08/kickstarter-analysis/blob/621df9ccac1139efa08b2a0082b77052459f5742/Theater_Outcomes_vs_Launch1.png). As the focus of this analysis is theatre-related projects and plays, the raw data was organized to include the desired parameters, such as the parent and sub-categories of the campaigns.
+The data used was drawn from a larger dataset of crowdfunding projects, which can be found [here](https://github.com/farwaali08/kickstarter-analysis/blob/84c20fc7a1056cd02f8a5bd1cd8059e987aa8de6/KICKSTARTER%20ANALYSIS.xlsx). As the focus of this analysis is theatre-related projects and plays, the raw data was organized to include the desired parameters, such as the parent and sub-categories of the campaigns.
 
 First, the 'Theatre' related projects were analyzed based on the campaign launch date. This includes data for plays, as well as musicals and spaces. This relationship is illustrated in the line chart below.
 ![Theater_Outcomes_vs_Launch](https://github.com/farwaali08/kickstarter-analysis/blob/d531fb56a30eeed5ab63390780a300946bb742ab/Theater_Outcomes_vs_Launch1.png)
