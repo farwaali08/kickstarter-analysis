@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red190\green199\blue208;
+\red27\green29\blue31;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c79043\c82190\c85130;
+\cssrgb\c14162\c15341\c16090;}
+\margl1440\margr1440\vieww16480\viewh14260\viewkind0
+\deftab720
+\pard\pardeftab720\ri123\partightenfactor0
+
+\f0\fs21 \cf0 #**PROJECT OVERVIEW**\
+\
+This analysis was prepared to identify trends and relationships in the data from several crowdfunding campaigns for theatre-related projects and  specifically, plays. The project outcomes were examined against the campaign launch dates, and individual funding goals. The data is presented visually, with the ultimate goal of drawing actionable insights for future campaigns. \
+\
+#**ANALYSIS AND CHALLENGES**\
+\
+##* Analysis*\
+\
+The data used was drawn from a larger dataset of crowdfunding projects, which can be found \cf2 \cb3 \expnd0\expndtw0\kerning0
+[here](https://github.com/farwaali08/kickstarter-analysis/blob/662918993b2c2f31c305ea1fd6d03418b9aa185f/KICKSTARTER%20ANALYSIS.xlsx)\cf0 \cb1 \kerning1\expnd0\expndtw0 . As the focus of this analysis is theatre-related projects and plays, the raw data was organized to include the desired parameters, such as the parent and sub-categories of the campaigns.\
+\
+First, the 'Theatre' related projects were analyzed based on the campaign launch date. This includes data for plays, as well as musicals and spaces. This relationship is illustrated in the line chart below.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 \expnd0\expndtw0\kerning0
+![alt text]\cf0 \cb1 \kerning1\expnd0\expndtw0 (https://github.com/farwaali08/kickstarter-analysis/blob/d351129435043c9972cdc2f4e6c676bbe6de0b28/Theater_Outcomes_vs_Launch.png)\
+\
+This information can be used to address questions such as the overall response to theatre-based projects, whether seasonal trends exist, and their influence, if any, on the project outcome.\
+\
+Kickstarters pertaining to plays specifically, were examined next, however this analysis compared the project outcomes to the individual funding goals. The funding goals were divided into 12 dollar-ranges, and cross-referenced with the project outcomes for each goal category. The success rates were calculated, and plotted per the chart below:\
+\
+![alt text](https://github.com/farwaali08/kickstarter-analysis/blob/d351129435043c9972cdc2f4e6c676bbe6de0b28/Theater_Outcomes_vs_Launch.png)\
+\
+This is intended to draw insights into what funding goals are generally more achievable.\
+\
+##*Challenges*\
+\
+The analysis for Outcomes Based on Goals is heavily reliant on functions and formatting, which can be subject to manual or user errors. Some possible challenges could include incorrect use of the COUNTIFS formula, which essentially would prevent the analysis from moving forward. Another example is in calculating the percentages for the success rate. This, again, can be subject to manual errors, as the formulae may not be copied or carried over correctly. Incorrect calculations would result in an incorrect graph, which would certainly be challenging to explain.\
+\
+#**RESULTS**\
+\
+##*Conclusions, Limitations, and Suggestions*\
+\
+###\'93Theatre Outcomes by Launch Date\'94\
+\
+The data suggests that overall, campaigns for theatre-based projects are generally more successful than not. The \'93Theatre Outcomes by Launch Date\'94 analysis indicates that 61% of the projects were successful, however, this includes all 3 categories (plays, musicals, and spaces,). To gain better insight on how plays fare, the data should be filtered to include the \'93plays\'94 sub-category.\
+\
+Interestingly, both the successful and failed campaigns on \'93Theatre Outcomes by Launch Date\'94 analysis seems to follow similar seasonal trends, with peaks (some relative) in February, May, and October. The trend lines follow a very similar shape, with the biggest difference being the magnitude. Approximately 50% of all campaigns were launched between April and August, and these are also the months with the highest number of successful campaigns. It\'92s unclear whether the high number is simply because there are more campaigns overall. This analysis only considers the number of campaigns, which is limiting in the information that it provides. A more effective way to present this data would be to calculate the success rate of all campaigns (as a ratio or percentage,) as this provides better context. For example, when examining the successful campaigns in January and February, it appears (at least visually,) that there is a large difference between the two, however there is a fairly similar success rate, at 58% and 63%, respectively. A success rate would better determine if any seasonal trends exist, and if they should be explored further.\
+\
+###\'93Outcomes Based on Goals\'94\
+\
+This analysis provides insight on how funding goals impact the outcome of a campaign, and the data is expressed as a percentage. The failed and successful campaign rates seem to have an inverse relationship. Smaller campaigns have a higher success rate up to the $19,999 threshold, where the success/failure ratio is the same. Anything higher than this range is generally unsuccessful, save for the $35,000 to $39,999 category. Further analysis should be done to determine whether this is an outlier. It may also be worthwhile to decrease the number of dollar-ranges after the $19,999 range. In total, from the $20,000 to greater than $50,000 ranges, there are 62 projects in total, with an overall success rate of 34%. This suggests that the successful campaigns in the $35,000 to $39,999 range may not be anomalies after all.\
+\
+The number of projects is also an important consideration here, and should be added to the analysis. A pie chart illustrating the number of successful campaigns would also help provide context to the analysis.\
+\
+Ultimately, further analysis is required before any action can be taken.\
+\
+\
+\
+}
