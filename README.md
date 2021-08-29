@@ -4,7 +4,7 @@ This analysis was prepared to identify trends and relationships in the data from
 
 #**ANALYSIS AND CHALLENGES**
 
-##* Analysis*
+##*Analysis*
 
 The data used was drawn from a larger dataset of crowdfunding projects, which can be found [here](https://github.com/farwaali08/kickstarter-analysis/blob/662918993b2c2f31c305ea1fd6d03418b9aa185f/KICKSTARTER%20ANALYSIS.xlsx). As the focus of this analysis is theatre-related projects and plays, the raw data was organized to include the desired parameters, such as the parent and sub-categories of the campaigns.
 
