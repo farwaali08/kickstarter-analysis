@@ -9,7 +9,7 @@ This analysis was prepared to identify trends and relationships in the data from
 The data used was drawn from a larger dataset of crowdfunding projects, which can be found [here](https://github.com/farwaali08/kickstarter-analysis/blob/621df9ccac1139efa08b2a0082b77052459f5742/Theater_Outcomes_vs_Launch1.png). As the focus of this analysis is theatre-related projects and plays, the raw data was organized to include the desired parameters, such as the parent and sub-categories of the campaigns.
 
 First, the 'Theatre' related projects were analyzed based on the campaign launch date. This includes data for plays, as well as musicals and spaces. This relationship is illustrated in the line chart below.
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/89050277/131239437-ef1cc580-9446-410e-9243-1a464b80fb39.png)
+![Theater_Outcomes_vs_Launch](https://github.com/farwaali08/kickstarter-analysis/blob/d531fb56a30eeed5ab63390780a300946bb742ab/Theater_Outcomes_vs_Launch1.png)
 This information can be used to address questions such as the overall response to theatre-based projects, whether seasonal trends exist, and their influence, if any, on the project outcome.
 
 Kickstarters pertaining to plays specifically, were examined next, however this analysis compared the project outcomes to the individual funding goals. The funding goals were divided into 12 dollar-ranges, and cross-referenced with the project outcomes for each goal category. The success rates were calculated, and plotted per the chart below:
